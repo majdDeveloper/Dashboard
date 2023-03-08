@@ -1,0 +1,204 @@
+/* Start width and height and box-shadow */
+.full-w {
+    width: 100%;
+}
+.w-300 {
+    width: 300px;
+}
+.box-shadow {
+    box-shadow: 0 0 8px #ddd;
+}
+/* End width and height */
+/* Start display */
+.d-flex {
+    display: flex;
+}
+.just-space-between {
+    justify-content: space-between;
+}
+.just-space-around {
+    justify-content: space-around;
+}
+.f-warp {
+    flex-wrap: wrap;
+}
+.al-it-center {
+    align-items: center;
+}
+.al-it-baseline {
+    align-items: baseline;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End display */
+
+/* Start background and color */
+.bg-white {
+    background-color: white;
+}
+.bg-dark {
+    background-color: #eeeeee;
+}
+.bg-main {
+    background-color: #0075ff;
+}
+.bg-purple {
+    background-color: blueviolet;
+}
+.bg-sup-main {
+    background-color: #00acee ;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-greed {
+    background-color: #22c55e;
+}
+.bg-gold {
+    background-color: #f59e0b;
+}
+.c-white {
+    color: white;
+}
+.c-black {
+    color: black;
+}
+.c-dark {
+    color: darkgray;
+}
+.c-gray {
+    color: gray;
+}
+.c-gold {
+    color: #f59e0b;
+}
+.c-greed {
+    color: #22c55e;
+}
+.c-main {
+    color: #0075ff;
+}
+.c-sup-main {
+    color: #00acee ;
+}
+.c-red {
+    color: red;
+}
+/* End background and color */
+
+/* Start position */
+.pos-relative {
+    position: relative;
+}
+.pos-absolute {
+    position: absolute;
+}
+/* End position */
+
+/* Start padding and margin */
+.p-20 {
+    padding: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-5 {
+    padding: 5px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.plr-20 {
+    padding: 5px 20px;
+}
+.ptb-5 {
+    padding: 5px 0;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.p-0 {
+    padding: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.m-0 {
+    margin: 0;
+}
+/* End padding and margin */
+/* Start text */
+.txt-c {
+    text-align: center;
+}
+.txt-del {
+    text-decoration: line-through;
+}
+.txt-initial {
+    text-align: initial;
+}
+.fs-14 {
+    font-size: 14px; 
+}
+.fs-25 {
+    font-size: 25px; 
+}
+.fs-35 {
+    font-size: 35px; 
+}
+.cur-pointer {
+    cursor: pointer;
+}
+.fw-bold {
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+}
+/* End text */
+/* Start border */
+.b-none {
+    border: none;
+}
+.b-bottom {
+    border-bottom: #eeeeee 1px solid;
+}
+.b-dark {
+    border: #eeeeee 2px solid;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-15 {
+    border-radius: 15px;
+}
+/* End border */
+
+/* Start bottom  */
+.button {
+    padding: 4px 7px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+/* End bottom  */

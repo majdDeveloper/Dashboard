@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework style file -->
+    <link rel="stylesheet" href="./css/framework .css">
+    <!-- main style file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700&family=Neonderthaw&family=Syne+Tactile&family=Work+Sans:ital,wght@0,300;0,500;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>profile</title>
+</head>
+<body>
+    <!-- End Profile Page -->
+    <div class="page d-flex">
+        <input class="checkbox" type="checkbox" id="bars">
+        <div class="sidebar pos-relative">
+            <div>
+                <label for="bars">
+                    <i class="fa-solid fa-bars fa-fw  cur-pointer">
+                    </i>
+                </label>
+                <div class="bar-switch txt-c">
+                    <div class="pos-relative txt-c pb-10">Sections</div>
+                </div>      
+            </div>
+            <ul>
+                <li>
+                    <a class="d-flex c-black p-10 txt-c rad-6 fs-14 mb-5" href="./index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5 active" href="./profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./project.html">
+                        <i class="fa-solid fa-bars-progress fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./file.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>File</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./plans.html">
+                        <i class="fa-solid fa-map fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>        
+        <div class="content full-w">
+            <!-- Start main-bar -->
+            <div class="main-bar d-flex p-20 txt-c just-space-between">
+                <div class="search pos-relative">
+                    <input type="text" name="search" placeholder="Type A Keyword">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="avatar d-flex">
+                    <div class="regular pos-relative" title="regular">
+                        <i class="fa-regular fa-bell fa-fw c-dark"></i>
+                    </div>
+                    <img src="./imgs/avatar.png" alt="" title="profile">
+                </div>
+            </div>
+            <!-- End main-bar -->
+            <!-- Start box -->
+            <!-- Start Info -->
+            <h1 class="pos-relative">profile</h1>
+            <div class="information d-flex bg-white box-shadow  rad-6 al-it-center just-space-around m-20 block-mobile">
+                <div class="img txt-c p-20">
+                    <img src="./imgs/avatar.png" alt="">
+                    <h3 class="m-0">Ahmed Mohammed</h3>
+                    <p class="level pos-relative pb-10 c-dark m-0">Level 19</p>
+                    <div class="start full-w">
+                        <i class="fa-solid fa-star fa-fw"></i>
+                        <i class="fa-solid fa-star fa-fw"></i>
+                        <i class="fa-solid fa-star fa-fw"></i>
+                        <i class="fa-solid fa-star fa-fw"></i>
+                        <i class="fa-regular fa-star-half-stroke fa-fw"></i>    
+                    </div>
+                    <span class="c-dark">55 Rating</span>
+                </div>
+                <div class="info-level">
+                    <div class="data p-20 pb-10 b-bottom">
+                        <p class="c-dark m-0">General Information</p>
+                        <div class="sup-info d-flex al-it-center">
+                            <span class="bag"><span class="c-dark">Full Name:</span>Ahmed Mohammed</span>
+                            <span><span class="c-dark">Gender:</span> Male</span>
+                            <span><span class="c-dark">Country:</span> Egypt</span>
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch d-flex just-space-between al-it-center">
+                                    <i class="fa-solid fa-check fa-fw bg-white"></i>
+                                    <i class="fa-solid fa-xmark fa-fw bg-white"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="data p-20 pb-10 b-bottom">
+                        <p class="c-dark m-0 full-w">Personal Information</p>
+                        <div class="sup-info d-flex al-it-center">
+                            <span class="bag"><span class="c-dark">Email:</span> Ahmed.Front1@gmail.com</span>
+                            <span><span class="c-dark">Phone:</span> 0544542525</span>
+                            <span><span class="c-dark">Data Of Birth:</span> 9/9/2002</span>
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch d-flex just-space-between al-it-center">
+                                    <i class="fa-solid fa-check fa-fw bg-white"></i>
+                                    <i class="fa-solid fa-xmark fa-fw bg-white"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="data p-20 pb-10 b-bottom">
+                        <p class="c-dark m-0">Jop Information</p>
+                        <div class="sup-info d-flex al-it-center">
+                            <span class="bag"><span class="c-dark">Title:</span>Full-Stack Developer</span>
+                            <span><span class="c-dark">Programming Language:</span>JavaScript</span>
+                            <span><span class="c-dark">Years Of Experience:</span>15+</span>
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch d-flex just-space-between al-it-center">
+                                    <i class="fa-solid fa-check fa-fw bg-white"></i>
+                                    <i class="fa-solid fa-xmark fa-fw bg-white"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="data p-20 pb-10">
+                        <p class="c-dark m-0">Billing Information</p>
+                        <div class="sup-info d-flex al-it-center">
+                            <span class="bag"><span class="c-dark">Payment Method:</span>Paypal</span>
+                            <span><span class="c-dark">Email:</span>...@email.com</span>
+                            <span><span class="c-dark">Subscription:</span>Monthly</span>
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch d-flex just-space-between al-it-center">
+                                    <i class="fa-solid fa-check fa-fw bg-white"></i>
+                                    <i class="fa-solid fa-xmark fa-fw bg-white"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!-- End Info -->
+            <div class="profile-page d-grid gap-20 pb-10 rad-15">
+                <!-- Start Skills -->
+                <div class="skills bg-white txt-c-mobile block-mobile p-20 rad-6 box-shadow">
+                    <div class="text mb-20">
+                        <h2 class="m-0">My Skills</h2>
+                        <p class="m-0 c-dark fs-14">complete Skills List</p>
+                    </div>
+                    <div class="skill">
+                        <a href="https://en.wikipedia.org/wiki/Ajax" target="_blank"><span class="button bg-dark c-black">HTML</span></a>
+                        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><span class="button bg-dark c-black">CSS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><span class="button bg-dark c-black">JavaScript</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Bootstrap" target="_blank"><span class="button bg-dark c-black">Bootstrap</span></a>
+                        <a href="https://en.wikipedia.org/wiki/React" target="_blank"><span class="button bg-dark c-black">React JS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Angular" target="_blank"><span class="button bg-dark c-black">Angular</span></a>
+                        <a href="https://en.wikipedia.org/wiki/jQuery" target="_blank"><span class="button bg-dark c-black">jQuery</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Next.JS" target="_blank"><span class="button bg-dark c-black">Next.JS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Vue.JS" target="_blank"><span class="button bg-dark c-black">Vue.JS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/SASS" target="_blank"><span class="button bg-dark c-black">SASS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/LASS" target="_blank"><span class="button bg-dark c-black">LASS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/SPA" target="_blank"><span class="button bg-dark c-black">SPA</span></a>
+                        <a href="https://en.wikipedia.org/wiki/npm" target="_blank"><span class="button bg-dark c-black">npm</span></a>
+                        <a href="https://en.wikipedia.org/wiki/manage_DB" target="_blank"><span class="button bg-dark c-black">manage DB</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Json" target="_blank"><span class="button bg-dark c-black">Json</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Ajax" target="_blank"><span class="button bg-dark c-black">Ajax</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Api" target="_blank"><span class="button bg-dark c-black">Api</span></a>
+                        <a href="https://en.wikipedia.org/wiki/PHP" target="_blank"><span class="button bg-dark c-black">PHP</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Larvel" target="_blank"><span class="button bg-dark c-black">Larvel</span></a>    
+                    </div>
+                </div>
+                <!-- End Skills -->
+                <!-- Start Latest Activities -->
+                <div class="activities bg-white txt-c-mobile block-mobile p-20 rad-6 box-shadow">
+                    <div class="text mb-20">
+                        <h2 class="m-0">Latest Activities</h2>
+                        <p class="m-0 c-dark fs-14">Latest Activities Done By The User</p>
+                    </div>
+                    <div class="active d-flex just-space-between al-it-center mb-20 block-mobile">
+                        <div class="data d-flex al-it-center block-mobile">
+                            <img src="./imgs/activity-01.png" alt="">
+                            <div class="info">
+                                <p class="m-0">Store</p>
+                                <span class="c-dark">Bought The Mastering Python Course</span>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <p class="m-0 txt-c fw-bold">8:55</p>
+                            <span class="c-dark">Monday</span>
+                        </div>
+                    </div>
+                    <div class="active d-flex just-space-between al-it-center mb-20 block-mobile">
+                        <div class="data d-flex al-it-center block-mobile">
+                            <img src="./imgs/activity-02.png" alt="">
+                            <div class="info">
+                                <p class="m-0">Academy</p>
+                                <span class="c-dark">Got The PHP Certificate</span>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <p class="m-0 txt-c fw-bold">12:02</p>
+                            <span class="c-dark">Sunday</span>
+                        </div>
+                    </div>
+                    <div class="active d-flex just-space-between al-it-center mb-20 block-mobile">
+                        <div class="data d-flex al-it-center block-mobile">
+                            <img src="./imgs/activity-03.png" alt="">
+                            <div class="info">
+                                <p class="m-0">Badges</p>
+                                <span class="c-dark">unlocked The 10 Skills Badge</span>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <p class="m-0 txt-c fw-bold">5:45</p>
+                            <span class="c-dark">Monday</span>
+                        </div>
+                    </div>
+                    <div class="active d-flex just-space-between al-it-center mb-20 block-mobile">
+                        <div class="data d-flex al-it-center block-mobile">
+                            <img src="./imgs/activity-01.png" alt="">
+                            <div class="info">
+                                <p class="m-0">Store</p>
+                                <span class="c-dark">Bought The Mastering Python Course</span>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <p class="m-0 txt-c fw-bold">4:07</p>
+                            <span class="c-dark">Friday</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Latest Activities -->
+            <!-- End box -->
+            </div>
+        </div>
+    </div>
+    <!-- End Profile Page -->
+</body>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework style file -->
+    <link rel="stylesheet" href="./css/framework .css">
+    <!-- main style file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700&family=Neonderthaw&family=Syne+Tactile&family=Work+Sans:ital,wght@0,300;0,500;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>File</title>
+</head>
+<body>
+    <!-- Start File Page -->
+    <div class="page d-flex">
+        <input class="checkbox" type="checkbox" id="bars">
+        <div class="sidebar pos-relative">
+            <div>
+                <label for="bars">
+                    <i class="fa-solid fa-bars fa-fw  cur-pointer">
+                    </i>
+                </label>
+                <div class="bar-switch txt-c">
+                    <div class="pos-relative txt-c pb-10">Sections</div>
+                </div>      
+            </div>
+            <ul>
+                <li>
+                    <a class="d-flex c-black p-10 txt-c rad-6 fs-14 mb-5" href="./index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./project.html">
+                        <i class="fa-solid fa-bars-progress fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5 active" href="./file.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>File</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./plans.html">
+                        <i class="fa-solid fa-map fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content full-w">
+        <!-- Start main-bar -->
+            <div class="main-bar d-flex p-20 txt-c just-space-between">
+                <div class="search pos-relative">
+                    <input type="text" name="search" placeholder="Type A Keyword">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="avatar d-flex">
+                    <div class="regular pos-relative" title="regular">
+                        <i class="fa-regular fa-bell fa-fw c-dark"></i>
+                    </div>
+                    <img src="./imgs/avatar.png" alt="" title="profile">
+                </div>
+            </div>
+            <!-- End main-bar -->
+            <!-- Start box -->
+            <h1 class="pos-relative">Files</h1>
+            <div class="file-page d-grid gap-20 p-10 rad-15 block-mobile">
+                <!-- Start Files  -->
+                <div class="files d-grid gap-20 rad-15">
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/avi.svg" alt="">
+                            <p class="m-0">my-file.avi</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/dll.svg" alt="">
+                            <p class="m-0">my-file.dll</p>
+                            <span class="c-dark fs-14 m-0">Admin</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>7.0MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/eps.svg" alt="">
+                            <p class="m-0">my-file.eps</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/pdf.svg" alt="">
+                            <p class="m-0">my-file.pdf</p>
+                            <span class="c-dark fs-14 m-0">Uploader</span>
+                        </div>
+                        <div class="date d-flex just-space-between c-dark">
+                            <span>20/05/2023</span>
+                            <span>2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/png.svg" alt="">
+                            <p class="m-0">my-file.png</p>
+                            <span class="c-dark fs-14 m-0">Osama</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/01/2023</span>
+                            <span>3.1MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/psd.svg" alt="">
+                            <p class="m-0">my-file.psd</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>2/08/2023</span>
+                            <span>5.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/sql.svg" alt="">
+                            <p class="m-0">my-file.sql</p>
+                            <span class="c-dark fs-14 m-0">Coder</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>16/03/2023</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/txt.svg" alt="">
+                            <p class="m-0">my-file.txt</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>1.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/avi.svg" alt="">
+                            <p class="m-0">my-file.avi</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/dll.svg" alt="">
+                            <p class="m-0">my-file.dll</p>
+                            <span class="c-dark fs-14 m-0">Admin</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>7.0MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/eps.svg" alt="">
+                            <p class="m-0">my-file.eps</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/pdf.svg" alt="">
+                            <p class="m-0">my-file.pdf</p>
+                            <span class="c-dark fs-14 m-0">Uploader</span>
+                        </div>
+                        <div class="date d-flex just-space-between c-dark">
+                            <span>20/05/2023</span>
+                            <span>2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/png.svg" alt="">
+                            <p class="m-0">my-file.png</p>
+                            <span class="c-dark fs-14 m-0">Osama</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/01/2023</span>
+                            <span>3.1MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/psd.svg" alt="">
+                            <p class="m-0">my-file.psd</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>2/08/2023</span>
+                            <span>5.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/sql.svg" alt="">
+                            <p class="m-0">my-file.sql</p>
+                            <span class="c-dark fs-14 m-0">Coder</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>16/03/2023</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/txt.svg" alt="">
+                            <p class="m-0">my-file.txt</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>1.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/avi.svg" alt="">
+                            <p class="m-0">my-file.avi</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/dll.svg" alt="">
+                            <p class="m-0">my-file.dll</p>
+                            <span class="c-dark fs-14 m-0">Admin</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>7.0MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/eps.svg" alt="">
+                            <p class="m-0">my-file.eps</p>
+                            <span class="c-dark fs-14 m-0">Ahmed</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/06/2023</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/pdf.svg" alt="">
+                            <p class="m-0">my-file.pdf</p>
+                            <span class="c-dark fs-14 m-0">Uploader</span>
+                        </div>
+                        <div class="date d-flex just-space-between c-dark">
+                            <span>20/05/2023</span>
+                            <span>2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/png.svg" alt="">
+                            <p class="m-0">my-file.png</p>
+                            <span class="c-dark fs-14 m-0">Osama</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>20/01/2023</span>
+                            <span>3.1MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/psd.svg" alt="">
+                            <p class="m-0">my-file.psd</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>2/08/2023</span>
+                            <span>5.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/sql.svg" alt="">
+                            <p class="m-0">my-file.sql</p>
+                            <span class="c-dark fs-14 m-0">Coder</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>16/03/2023</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white block-mobile rad-6 box-shadow">
+                        <i class="fa-solid fa-download fa-fw c-dark"></i>
+                        <div class="img mb-5 b-botto b-bottom pb-10">
+                            <img  src="./imgs/txt.svg" alt="">
+                            <p class="m-0">my-file.txt</p>
+                            <span class="c-dark fs-14 m-0">Designer</span>
+                        </div>
+                        <div class="date d-flex just-space-between  c-dark">
+                            <span>15/06/2023</span>
+                            <span>1.2MB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Files  -->
+                <!-- Start Files Statistics -->
+                <div class="statistics full-w bg-white box-shadow rad-6 block-mobile p-10">
+                    <h3 >Files Statistics</h3>
+                    <div class="detils d-flex just-space-around al-it-center">
+                        <div class="img p-10 bg-main cur-pointer rad-6">
+                            <i class="fa-regular fa-file-pdf fa-fw c-main"></i>
+                        </div>
+                        <div class="text">
+                            <p class="m-0 fs-14 ">PDF Files</p>
+                            <span class="c-dark">130</span>
+                        </div>
+                        <span class="c-dark">6.5GB</span>
+                    </div>
+                    <div class="detils d-flex just-space-around al-it-center">
+                        <div class="img p-10 bg-main cur-pointer rad-6">
+                            <i class="fa-solid fa-images fa-fw c-greed"></i>
+                        </div>
+                        <div class="text">
+                            <p class="m-0 fs-14 ">Images</p>
+                            <span class="c-dark">115 Files</span>
+                        </div>
+                        <span class="c-dark">3.5GB</span>
+                    </div>
+                    <div class="detils d-flex just-space-around al-it-center">
+                        <div class="img p-10 bg-main cur-pointer rad-6">
+                            <i class="fa-solid fa-file-word fa-fw c-red"></i>
+                        </div>
+                        <div class="text">
+                            <p class="m-0 fs-14 ">Word Files</p>
+                            <span class="c-dark">110 Files</span>
+                        </div>
+                        <span class="c-dark">3.2GB</span>
+                    </div>
+                    <div class="detils d-flex just-space-around al-it-center">
+                        <div class="img p-10 bg-main cur-pointer rad-6">
+                            <i class="fa-solid fa-file-csv fa-fw c-gold"></i>
+                        </div>
+                        <div class="text">
+                            <p class="m-0 fs-14 ">CSV Files</p>
+                            <span class="c-dark">99 Files</span>
+                        </div>
+                        <span class="c-dark">2.9GB</span>
+                    </div>
+                </div>
+                <!-- End Files Statistics -->
+            </div>
+            <!-- End box -->
+        </div>
+    </div>
+    <!-- End File Page -->
+</body>
+</html>

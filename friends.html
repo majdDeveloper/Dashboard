@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework style file -->
+    <link rel="stylesheet" href="./css/framework .css">
+    <!-- main style file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700&family=Neonderthaw&family=Syne+Tactile&family=Work+Sans:ital,wght@0,300;0,500;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Friends</title>
+</head>
+<body>
+    <!-- Start Friends Page -->
+    <div class="page d-flex">
+        <input class="checkbox" type="checkbox" id="bars">
+        <div class="sidebar pos-relative">
+            <div>
+                <label for="bars">
+                    <i class="fa-solid fa-bars fa-fw  cur-pointer">
+                    </i>
+                </label>
+                <div class="bar-switch txt-c">
+                    <div class="pos-relative txt-c pb-10">Sections</div>
+                </div>      
+            </div>
+            <ul>
+                <li>
+                    <a class="d-flex c-black p-10 txt-c rad-6 fs-14 mb-5" href="./index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./project.html">
+                        <i class="fa-solid fa-bars-progress fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5 active" href="./friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./file.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>File</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="c-black d-flex p-10 txt-c rad-6 fs-14 mb-5" href="./plans.html">
+                        <i class="fa-solid fa-map fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>        
+        <div class="content full-w">
+            <!-- Start main-bar -->
+            <div class="main-bar d-flex p-20 txt-c just-space-between">
+                <div class="search pos-relative">
+                    <input type="text" name="search" placeholder="Type A Keyword">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="avatar d-flex">
+                    <div class="regular pos-relative" title="regular">
+                        <i class="fa-regular fa-bell fa-fw c-dark"></i>
+                    </div>
+                    <img src="./imgs/avatar.png" alt="" title="profile">
+                </div>
+            </div>
+            <!-- Start box -->
+            <h1 class="pos-relative">Friends</h1>
+            <div class="friends-page d-grid gap-20 pb-10 rad-15">
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-01.png"  alt="">
+                        <h4 class="m-0">Ahmed Nasser</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">JavaScript Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>99 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>15 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip">VIP</span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>02/01/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-02.png"  alt="">
+                        <h4 class="m-0">Omer Fathy</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Cloud Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>30 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>11 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>12 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>02/08/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-03.png"  alt="">
+                        <h4 class="m-0">Nasser Omer</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Mobile Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>82 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>51 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>12 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>02/01/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-04.png"  alt="">
+                        <h4 class="m-0">Shady Nabil</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Back-End Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>70 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>30 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>18 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>25/06/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-05.png"  alt="">
+                        <h4 class="m-0">Mohammed Ibrahim</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Algorithm Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>59 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>14 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>7 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>22/07/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-01.png"  alt="">
+                        <h4 class="m-0">Amr Hendawy</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">JavaScript Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>50 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>20 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>54 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip">VIP</span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>02/03/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-03.png"  alt="">
+                        <h4 class="m-0">Mahmoud Adel</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Front-End Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>39 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>25 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>82 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>15/04/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-04.png"  alt="">
+                        <h4 class="m-0">Ahmed Nasser</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">JavaScript Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>21 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>52 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>11 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>02/02/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-02.png"  alt="">
+                        <h4 class="m-0">Gareeb Qwaider</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">JavaScript Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>99 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>15 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip">VIP</span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>01/07/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro bg-white block-mobile rad-6 box-shadow">
+                    <div class="msg p-10">
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-phone fa-fw"></i>
+                        </span>
+                        <span class="icon bg-dark cur-pointer">
+                            <i class="fa-solid fa-envelope fa-fw "></i>
+                        </span>
+                    </div>        
+                    <div class="img txt-c b-bottom m-20">
+                        <img src="./imgs/team-05.png"  alt="">
+                        <h4 class="m-0">Hamza ramy</h4>
+                        <p class="c-dark m-0 fs-14 mb-5">Python Developer</p>
+                    </div>
+                    <div class="detiles d-flex just-space-between b-bottom m-20">
+                        <div>
+                            <div class="detil">
+                                <i class="fa-solid fa-user fa-fw"></i>
+                                <span>11 Friend</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span>15 Project</span>
+                            </div>
+                            <div class="detil">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span>52 Articles</span>
+                            </div>
+                        </div>
+                        <span class="vip"></span>
+                    </div>
+                    <div class="joined d-flex just-space-between al-it-center m-20 fs-14">
+                        <div class="date d-flex c-dark">
+                            <span>Joined:</span>
+                            <span>08/09/2023</span>
+                        </div>
+                        <div class="button d-flex">
+                            <span class="button bg-main c-white cur-pointer">Profile</span>
+                            <span class="button bg-red c-white cur-pointer">Remove</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End box -->
+        </div>
+    </div>
+            <!-- End main-bar -->
+    <!-- End Friends Page -->
+</body>
+</html>
